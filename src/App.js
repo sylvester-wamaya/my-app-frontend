@@ -24,11 +24,11 @@ function App() {
       
       <Routes>
         <Route exact path='/' element={<Home/>} />
-        <Route exact path='/shows' element={<StationList/>} />
-        <Route exact path='/characters' element={<VoterList/>} />
-        <Route exact path='/shows/:showId/characters/new' element={<NewVoter/>} />
-        <Route exact path='/shows/new' element={<NewStation/>} />
-        <Route exact path='/shows/:id' element={<StationDetails/>} />
+        <Route exact path='/stations' element={<StationList/>} />
+        <Route exact path='/voters' element={<VoterList/>} />
+        <Route exact path='/stations/:stationId/voters/new' element={<NewVoter/>} />
+        <Route exact path='/stations/new' element={<NewStation/>} />
+        <Route exact path='/stations/:id' element={<StationDetails/>} />
         <Route element={<PageNotFound/>} />
         </Routes>
         </Router>

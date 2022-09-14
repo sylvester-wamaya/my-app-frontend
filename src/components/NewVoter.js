@@ -42,7 +42,7 @@ const NewVoter = () => {
     }
     // debugger
     await fetch(`http://localhost:9292/stations/${stationId}/voters`, options)
-    navigate.push(`/stations/${stationId}`);
+    navigate(`/stations/${stationId}`);
   }
 
   return (

@@ -24,7 +24,7 @@ const NewStation= () => {
     }
     await fetch('http://localhost:9292/stations', options)
     
-    navigate.push("/stations");
+    navigate("/stations");
   }
 
 
