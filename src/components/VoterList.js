@@ -34,7 +34,7 @@ const VoterList = () => {
     <div>
       <h1>Here are your stations' voters!</h1>
       {voterCard}
-      {/* <p>Click a show from the Show List to add a new character.</p> */}
+      {/* <p>Click a station from the Station List to add a new Voter.</p> */}
     </div>
   )
 }
