@@ -33,11 +33,10 @@ const VoterList = () => {
     <div>
       <h1>Here are your stations' voters!</h1>
       {voterCard}
-<<<<<<< HEAD
-      {<p>Click a station from the station List to add a new voter.</p> }
-=======
-      {/* <p>Click a station from the Station List to add a new Voter.</p> */}
->>>>>>> d30063d8e152d7449e77d8ce4abae47052304fb2
+
+
+      { <p>Click a station from the Station List to add a new Voter.</p> }
+
     </div>
   )
 }
