@@ -4,7 +4,6 @@ import './App.css';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
 import StationList from './components/StationList'
-// import CharacterList from './components/CharacterList'
 import NewStation from './components/NewStation';
 import PageNotFound from './components/PageNotFound';
 import VoterList from './components/VoterList';

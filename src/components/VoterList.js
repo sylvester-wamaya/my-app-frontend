@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import VoterCard from './VoterCard'
 
 
-
 const VoterList = () => {
   const [voters, setVoters] = useState([])
   const [loading, setLoading] = useState(true);
@@ -34,7 +33,7 @@ const VoterList = () => {
     <div>
       <h1>Here are your stations' voters!</h1>
       {voterCard}
-      {/* <p>Click a show from the Show List to add a new character.</p> */}
+      {<p>Click a station from the station List to add a new voter.</p> }
     </div>
   )
 }
